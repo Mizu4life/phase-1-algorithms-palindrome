@@ -9,7 +9,7 @@ function isPalindrome(word) {
 
 /* 
   Add your pseudocode here
-  
+
   const reversedWord;
   if (word === reversedWord) return true;
   else return false;
@@ -28,12 +28,12 @@ function isPalindrome(word) {
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
-  console.log("=>", isPalindrome("racecar"));
+  console.log("=>", isPalindrome("madam"));
 
   console.log("");
 
   console.log("Expecting: false");
-  console.log("=>", isPalindrome("robot"));
+  console.log("=>", isPalindrome("cake"));
 }
 
 module.exports = isPalindrome;
